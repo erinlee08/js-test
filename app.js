@@ -34,6 +34,7 @@ function multiply(a,b){
   var myFirst = //eslint-disable-line
 ***
 }
+******
 
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
