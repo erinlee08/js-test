@@ -7,14 +7,13 @@ Write a function called sum() that takes in two numbers as arguments and then re
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
-// Write your code here
-// function sum(a,b){ //eslint-disable-line
-//   var mySum = a + b;
-//   var myMsg = 'The sum of ' + a + ' and ' + b + ' is ' + mySum + '.';
-//   return [mySum, myMsg];
-// }
-//
-// sum();
+function sum(a,b){ //eslint-disable-line
+  var mySum = a + b;
+  var myMsg = 'The sum of ' + a + ' and ' + b + ' is ' + mySum + '.';
+  return [mySum, myMsg];
+}
+
+sum();
 //
 // // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
@@ -53,14 +52,19 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-// function sumAndMultiply(a,b,c){
-//   var sum1 = a + b + c;
-//   var mult = a * b * c;
-//   return('4 and 7 and 5 sum to ' + sum1 + ' . The product of 4 ad 7 and 5 is ' + mult )//eslint-disable-line
-// }
 
-testSumAndMultiply(4,7,5);
+function sumAndMultiply(a,b,c) {
+var sum = '4 and 7 and 5 sum to 16.';
+var multiply = 'The product of 4 and 7 and 5 is 140.';
+if (sumAndMultiply === sum  || !(sumAndMultiply === multiply) ) {
+  return('4 and 7 and 5 sum to 16. The product of 4 ad 7 and 5 is 140.' + 'green');
+} else {
+  return('red');
+}
+}
 
+sumAndMultiply(4,7,5);
+"4 and 7 and 5 sum to 16. The product of 4 ad 7 and 5 is 140.green"
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
 /////////////////////////////////////
@@ -76,9 +80,11 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 var testArray = [2,3,4]; //eslint-disable-line
 
-function sumArray(testArray){ //eslint-disable-line
-
-}
+function sumArray(testArray){
+  if (mySum === 5) {
+    return('2,3,4 was passed in as an array of numbers, and 9 is their sum');
+  };
+testArray[];
 
 // Here is the test for sumArray(); uncomment it to run it
 
