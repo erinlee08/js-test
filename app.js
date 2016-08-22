@@ -60,8 +60,7 @@ if (sumAndMultiply === sum  || !(sumAndMultiply === multiply) ) {
   return('4 and 7 and 5 sum to 16. The product of 4 ad 7 and 5 is 140.' + 'green');
 } else {
   return('red');
-}
-}
+};
 
 sumAndMultiply(4,7,5);
 "4 and 7 and 5 sum to 16. The product of 4 ad 7 and 5 is 140.green"
